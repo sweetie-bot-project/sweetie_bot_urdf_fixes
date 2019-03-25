@@ -1,0 +1,147 @@
+{
+    "joint11": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint12": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint13": {
+        "effort": "0.24", 
+        "lower": "-1.9", 
+        "upper": "1.9", 
+        "velocity": "1.5708"
+    }, 
+    "joint14": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint15": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint21": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint22": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint23": {
+        "effort": "0.24", 
+        "lower": "-1.9", 
+        "upper": "1.9", 
+        "velocity": "1.5708"
+    }, 
+    "joint24": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint25": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint31": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint32": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint33": {
+        "effort": "0.24", 
+        "lower": "-1.9", 
+        "upper": "1.9", 
+        "velocity": "1.5708"
+    }, 
+    "joint34": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint35": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint41": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint42": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint43": {
+        "effort": "0.24", 
+        "lower": "-1.9", 
+        "upper": "1.9", 
+        "velocity": "1.5708"
+    }, 
+    "joint44": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint45": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint51": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "0.26", 
+        "velocity": "1.5708"
+    }, 
+    "joint52": {
+        "effort": "0.24", 
+        "lower": "-1.5708", 
+        "upper": "1.5708", 
+        "velocity": "1.5708"
+    }, 
+    "joint53": {
+        "effort": "0.24", 
+        "lower": "-0.55", 
+        "upper": "1.0", 
+        "velocity": "1.5708"
+    }, 
+    "joint54": {
+        "effort": "0.24", 
+        "lower": "-0.4", 
+        "upper": "0.4", 
+        "velocity": "1.5708"
+    }
+}
+
