@@ -16,9 +16,9 @@ class Plugin:
     cmd_name = name
     cmd_letter = "i"
     display_name = "Fix base_link inertia warning"
-    enabled = False
+    enabled = True
 
-    def rollout(self, robot, filename):
+    def rollout(self, robot, filename, package_name):
       with open(filename, 'r+') as f:
        urdf = f.read()
 
@@ -36,7 +36,7 @@ class Plugin:
 
       return True
 
-    def rollback(self, robot, filename):
+    def rollback(self, robot, filename, package_name):
       with open(filename, 'r+') as f:
        urdf = f.read()
 

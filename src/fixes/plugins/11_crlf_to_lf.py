@@ -5,7 +5,7 @@ class Plugin:
     cmd_name = name
     cmd_letter = "c"
     display_name = "Convert CRLF to LF"
-    enabled = False
+    enabled = True
 
     # replacement strings
     WINDOWS_LINE_ENDING = b'\r\n'
@@ -27,7 +27,7 @@ class Plugin:
 	  f.close()
 
 
-    def rollout(self, robot, filename):
+    def rollout(self, robot, filename, package_name):
 	pdir = os.path.dirname(filename)
 	pdir = os.path.dirname(pdir)
 
@@ -42,5 +42,5 @@ class Plugin:
 	  if file.endswith(".launch"):
 	    self.crlf_to_lf(os.path.join(pdir, 'launch', file))
 
-    def rollback(self, robot, filename):
+    def rollback(self, robot, filename, package_name):
 	pass

@@ -54,8 +54,9 @@ class Plugin:
     cmd_letter = "n"
     display_name = "Add nose bone55,56"
     enabled = False
+    only_for = ['sweetie_bot_proto2_description']
 
-    def rollout(self, robot, filename):
+    def rollout(self, robot, filename, package_name):
       with open(filename, 'r+') as f:
        urdf = f.read()
 
@@ -73,7 +74,7 @@ class Plugin:
       return True
 
 
-    def rollback(self, robot, filename):
+    def rollback(self, robot, filename, package_name):
       with open(filename, 'r+') as f:
        urdf = f.read()
 

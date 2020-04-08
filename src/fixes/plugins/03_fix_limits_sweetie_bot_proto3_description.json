@@ -1,0 +1,147 @@
+{
+    "leg1_joint1": {
+        "effort": "0.24", 
+        "lower": "-1.99", 
+        "upper": "3.58", 
+        "velocity": "1.5708"
+    },
+    "leg1_joint2": {
+        "effort": "0.24", 
+        "lower": "-0.26", 
+        "upper": "2.34", 
+        "velocity": "1.5708"
+    },
+    "leg1_joint3": {
+        "effort": "0.24", 
+        "lower": "0.0", 
+        "upper": "1.94", 
+        "velocity": "1.5708"
+    },
+    "leg1_joint4": {
+        "effort": "0.24", 
+        "lower": "-2.09", 
+        "upper": "0.0", 
+        "velocity": "1.5708"
+    },
+    "leg1_joint5": {
+        "effort": "0.24", 
+        "lower": "-1.0", 
+        "upper": "0.5", 
+        "velocity": "1.5708"
+    }, 
+    "leg1_joint6": {
+        "effort": "0.24", 
+        "lower": "-0.73", 
+        "upper": "0.73", 
+        "velocity": "1.5708"
+    }, 
+    "leg2_joint1": {
+        "effort": "0.24", 
+        "lower": "-1.99", 
+        "upper": "3.58", 
+        "velocity": "1.5708"
+    },
+    "leg2_joint2": {
+        "effort": "0.24", 
+        "lower": "-0.26", 
+        "upper": "2.34", 
+        "velocity": "1.5708"
+    },
+    "leg2_joint3": {
+        "effort": "0.24", 
+        "lower": "0.0", 
+        "upper": "1.94", 
+        "velocity": "1.5708"
+    },
+    "leg2_joint4": {
+        "effort": "0.24", 
+        "lower": "-2.09", 
+        "upper": "0.0", 
+        "velocity": "1.5708"
+    },
+    "leg2_joint5": {
+        "effort": "0.24", 
+        "lower": "-1.0", 
+        "upper": "0.5", 
+        "velocity": "1.5708"
+    }, 
+    "leg2_joint6": {
+        "effort": "0.24", 
+        "lower": "-0.73", 
+        "upper": "0.73", 
+        "velocity": "1.5708"
+    },
+    "leg3_joint1": {
+        "effort": "0.24", 
+        "lower": "-2.39", 
+        "upper": "3.19", 
+        "velocity": "1.5708"
+    },
+    "leg3_joint2": {
+        "effort": "0.24", 
+        "lower": "-0.31", 
+        "upper": "0.17", 
+        "velocity": "1.5708"
+    },
+    "leg3_joint3": {
+        "effort": "0.24", 
+        "lower": "-2.09", 
+        "upper": "0.0", 
+        "velocity": "1.5708"
+    },
+    "leg3_joint4": {
+        "effort": "0.24", 
+        "lower": "-0.30", 
+        "upper": "2.13", 
+        "velocity": "1.5708"
+    },
+    "leg3_joint5": {
+        "effort": "0.24", 
+        "lower": "-1.27", 
+        "upper": "0.31", 
+        "velocity": "1.5708"
+    }, 
+    "leg3_joint6": {
+        "effort": "0.24", 
+        "lower": "-0.82", 
+        "upper": "0.66", 
+        "velocity": "1.5708"
+    }, 
+    "leg4_joint1": {
+        "effort": "0.24", 
+        "lower": "-2.39", 
+        "upper": "3.19", 
+        "velocity": "1.5708"
+    },
+    "leg4_joint2": {
+        "effort": "0.24", 
+        "lower": "-0.31", 
+        "upper": "0.17", 
+        "velocity": "1.5708"
+    },
+    "leg4_joint3": {
+        "effort": "0.24", 
+        "lower": "-2.09", 
+        "upper": "0.0", 
+        "velocity": "1.5708"
+    },
+    "leg4_joint4": {
+        "effort": "0.24", 
+        "lower": "-0.30", 
+        "upper": "2.13", 
+        "velocity": "1.5708"
+    },
+    "leg4_joint5": {
+        "effort": "0.24", 
+        "lower": "-1.27", 
+        "upper": "0.31", 
+        "velocity": "1.5708"
+    }, 
+    "leg4_joint6": {
+        "effort": "0.24", 
+        "lower": "-0.66", 
+        "upper": "0.82", 
+        "velocity": "1.5708"
+    }
+}
+
