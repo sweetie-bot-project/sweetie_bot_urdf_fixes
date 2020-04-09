@@ -125,6 +125,17 @@ class Plugin:
 
     def rollback(self, robot, filename, package_name):
 
+      if robot.name.startswith("sweetie_bot_proto2"):
+          hoof_template = proto2_hoof_template
+          hoof_sel = proto2_hoof_sel
+          joint_sel = proto2_joint_sel
+      elif robot.name.startswith("sweetie_bot_proto3"):
+          hoof_template = proto3_hoof_template
+          hoof_sel = proto3_hoof_sel
+          joint_sel = proto3_joint_sel
+      else:
+        return False
+
       with open(filename, 'r+') as f:
        urdf = f.read()
 

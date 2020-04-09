@@ -9,13 +9,13 @@ class Plugin:
     enabled = True
 
     def rollout(self, robot, filename, package_name):
-      if package_name in only_for:  
+      if package_name in self.only_for:
         for link in robot.links:
           for collision in link.collisions:
             collision.geometry.filename = re.sub("(meshes/)(base|bone)([\w]*)(\.STL)", r"\1collision/\2\3\4", collision.geometry.filename)
 
     def rollback(self, robot, filename, package_name):
-      if package_name in only_for:  
+      if package_name in self.only_for:
         for link in robot.links:
           for collision in link.collisions:
             collision.geometry.filename = re.sub("/meshes/collision/", "/meshes/", collision.geometry.filename)

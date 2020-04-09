@@ -20,14 +20,14 @@ class Plugin:
         return False
 
       with open(filename, 'r+') as f:
-       urdf = f.read()
+        urdf = f.read()
 
-       urdf = re.sub(link_sel, link_template, urdf)
+        urdf = re.sub(link_sel, link_template, urdf)
 
-       f.truncate(0)
-       f.seek(0)
-       f.write(urdf)
-       f.close()
+        f.truncate(0)
+        f.seek(0)
+        f.write(urdf)
+        f.close()
 
       return True
 

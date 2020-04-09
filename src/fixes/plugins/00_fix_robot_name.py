@@ -6,9 +6,9 @@ class Plugin:
     enabled = True
 
     def rollout(self, robot, filename, package_name):
-	if robot.name.endswith('_description'):
-	  robot.name = robot.name[0:-12] 
+        if robot.name.endswith('_description'):
+            robot.name = robot.name[0:-12]
 
     def rollback(self, robot, filename, package_name):
-	if not robot.name.endswith('_description'):
-	  robot.name = robot.name + '_description'
+        if not robot.name.endswith('_description'):
+            robot.name = robot.name + '_description'
